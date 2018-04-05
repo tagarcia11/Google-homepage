@@ -1,0 +1,141 @@
+body {
+ font-family: "arial";   
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+}
+
+header ul li i{
+    font-size: 30px;
+    color: #727272;
+}
+
+header ul li button {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    line-height: 28px;
+    padding:0 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/* MIDDLE SECTION */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8 auto;
+    background: white;
+}
+
+.middle-selection {
+    position: absolute;
+    top: 30%;
+}
+
+#form, #search-buttons, #logo, #availability  {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin-bottom: 20px;
+    
+    
+}
+
+form input {
+min-width: 584px;
+height: 44px;
+box-shadow: 0 2px 2px 0 
+rgba(0,0,0,0.16), 0 0 0 1px 
+rgba (0,0,0,08);
+font-size: 16px;
+padding: 0 0 0 10px;
+}
+
+
+#search-buttons {
+    margin: 30px 0;
+    
+}
+
+#search-buttons button{
+    background: #f2f2f2;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 34px;
+    min-width: 54px;
+    border-radius: 2px; 
+}
+
+#search-buttons button:hover{
+    color: #222;
+    border: 1px solid #c6c6c6;
+}
+
+#availability {
+    margin-top: -15px;
+    font-size: small;
+}
+    
+    
+#availability p a {
+    text-decoration: none;
+    color: #1a8dab;
+} 
+
+#availability p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #c4c4c4;
+    line-height: 40px
+    font-size: small;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+}
+
+footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
+
+#right {
+    float: left;
+}
